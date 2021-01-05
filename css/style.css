@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* layout */
+#wrap{width:100%; position:relative}
+#line{width:100%; position:absolute; border-bottom:1px solid #d5d5d5; top:140px}
+#header{height:140px}
+#contents{height:1387px}
+#banner{height:43px; border-top:1px solid #d5d5d5; padding-top:19px}
+#footer{height:156px}
+
+/* common */
+.container{width:1250px; margin:0 auto; height:inherit; /* background:rgba(255,255,255,.3); */}
+
+/* header */
+.header_top{height:40px; background:#458acf}
+.header_top .gnb li{width:100px; height:40px}
+.header_top .gnb li a{color:#fff; font-weight:600; font-size:15px; display:block; padding:9px 20px}
+.header_top .gnb li a:hover{text-decoration:underline}
+.header_top .gnb .gnb01 a{color:#014da1}
+.header_top .gnb .gnb01{background:url(../images/gnb01.gif) no-repeat}
+.header_top .gnb .gnb02{background:url(../images/gnb02.gif) no-repeat}
+.header_top .gnb .gnb03{background:url(../images/gnb03.gif) no-repeat}
+
+.header_top .gnb1{background:#2d6caf; padding:8px 10px}
+.header_top .gnb1 li{float:left; width:77px; text-align:center}
+.header_top .gnb1 li a{color:#fff; font-size:15px}
+.header_top .gnb1 li:hover a{text-decoration:underline}
+.header_top .gnb1 li.gnb04{background:url(../images/global_bar.gif) no-repeat right}
+.header_top .gnb1 li.gnb05{background:url(../images/global_bar.gif) no-repeat right}
+.header_top .gnb1 li.gnb06{width:106px; background:url(../images/global_bar02.gif) no-repeat right 11px}
+
+/* nav */
+.nav{height:100px; margin-top:17px}
+.nav .weather{margin:-15px 0 0 843px}
+.nav .weather span{font-size: 15px; font-weight:600; color:#636363}
+.nav>ul{margin-top:8px}
+.nav>ul>li.searchBtn{margin-right:2px}
+.nav>ul>li.menuBtn:hover .menu{display:block}
+
+/* menu */
+.menu{width:100%; height:auto; background:#2d6caf; position:absolute; top:138px; left:0; z-index:99999; padding-bottom:20px; display:none}
+.menu .depth2_wrap{padding-top:10px}
+.menu .depth2_wrap>ul{overflow:hidden; border:1px solid #97bbe2}
+.menu .depth2_wrap>ul>li{width:25%; float:left; border-left:1px solid #97bbe2; box-sizing:border-box; min-height:1350px}
+.menu .depth2_wrap>ul>li.m_first{border-left:none}
+.menu .depth2_wrap>ul>li>a{display:block; border:1px solid #97bbe2; width:89.5%; height:41px; margin:15px auto 8px auto; text-align:center; padding-top:3px; color:#fff; font-weight:bold; font-size:22px; background:#145b9e; letter-spacing:0px; line-height:38px}
+.menu .depth2_wrap>ul>li dl{margin-left:15px; width:100%}
+.menu .depth2_wrap>ul>li dl dt{clear:both}
+.menu .depth2_wrap>ul>li dl dt a{background:url(../images/gnb_dot01.gif) no-repeat left center; display:inline-block; padding-left:8px; color:#fff; font-size:16px; font-weight:600; margin:3px 0 2px 0; letter-spacing:0px}
+.menu .depth2_wrap>ul>li dl dt a img, .menu .depth2_wrap>ul>li dl dd a img{padding:7px 0 0 3px}
+.menu .depth2_wrap>ul>li dl dd{display:inline; margin-left:3px; width:47%; float:left}
+.menu .depth2_wrap>ul>li dl dd a{background:url(../images/gnb_dot02.gif) no-repeat left center; padding:0 5px; color:#9ef7fb; font-size:15px; margin-top:2px}
+.menu .depth2_wrap>ul>li dl dd ul{padding-bottom:10px}
+.menu .depth2_wrap>ul>li dl dd ul li{padding-left:5px}
+.menu .depth2_wrap>ul>li dl dd ul li a{background:url(../images/gnb_dot03.gif) no-repeat  left center; color:#fff}
+.menu .depth2_wrap>ul>li dl dd ul li a:hover, .menu .depth2_wrap>ul>li dl dt a:hover, .menu .depth2_wrap>ul>li dl dd a:hover{text-decoration:underline}
+
+/* banner */
+.bannerWrap h2{font-size:18px; font-weight:600; float:left; margin-right:30px}
+.bannerWrap .b_control{padding-top:3px; float:left; margin-right:15px}
+.bannerWrap .b_control a{margin-right:5px; font-size:15px; color:#222}
+.bannerWrap .b_grab ul{padding-top:4px; overflow:hidden}
+.bannerWrap .b_grab ul li{float:left}
+.bannerWrap .b_grab ul li a{font-size:15px; font-weight:600; color:#555; margin-right:70px}
+
+
+/* footer */
+/* footer_top */
+.footer_top{height:45px; background:#2862a3; line-height:45px}
+.footer_top ul{overflow:hidden; float:left}
+.footer_top ul li{float:left; padding-right:20px}
+.footer_top ul li a{color:#fff; font-size:15px}
+.footer_top ul li.policy a{color:#97f1fb; font-weight:600}
+.footer_top .select_depart{width:240px; height:inherit; background:#1b4f8a; border-left:1px solid #2862a3; border-left:1px solid #5783b4}
+.footer_top .select_depart h3 a{background:url(../images/select_depart04_bull.gif) 210px center no-repeat; display:block; color:#fff; font-size:15px; font-weight:normal; padding-left:15px}
+
+/* footer_bottom */
+.footer_bottom{height:111px; margin-top:15px}
+.footer_bottom .f_logo{float:left; margin-top:15px; width:220px}
+.footer_bottom .f_add{float:left; margin-top:5px}
+.footer_bottom .f_web{float:right}
