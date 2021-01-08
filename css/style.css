@@ -26,7 +26,7 @@
 .header_top .gnb1 li a{color:#fff; font-size:15px}
 .header_top .gnb1 li:hover a{text-decoration:underline}
 .header_top .gnb1 li.gnb04{background:url(../images/global_bar.gif) no-repeat right}
-.header_top .gnb1 li.gnb05{background:url(../images/global_bar.gif) no-repeat right}
+.header_top .gnb1 li.gnb05{width:106px; background:url(../images/global_bar.gif) no-repeat right}
 .header_top .gnb1 li.gnb06{width:106px; background:url(../images/global_bar02.gif) no-repeat right 11px}
 
 /* nav */
